@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="root" prefHeight="450.0" prefWidth="600.0" style="-fx-background-color: #CBF6F8#CBF6F8;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="minesweeper.EasyController">
+   <children>
+      <GridPane fx:id="grid" gridLinesVisible="true" layoutX="100.0" layoutY="70.0" prefHeight="360.0" prefWidth="340.0" AnchorPane.bottomAnchor="21.0" AnchorPane.leftAnchor="100.0" AnchorPane.rightAnchor="160.0" AnchorPane.topAnchor="70.0">
+        <columnConstraints>
+            <ColumnConstraints hgrow="NEVER" maxWidth="-Infinity" minWidth="40.0" prefWidth="40.0" />
+            <ColumnConstraints hgrow="NEVER" maxWidth="-Infinity" minWidth="40.0" prefWidth="40.0" />
+            <ColumnConstraints hgrow="NEVER" maxWidth="-Infinity" minWidth="40.0" prefWidth="40.0" />
+          <ColumnConstraints hgrow="NEVER" maxWidth="-Infinity" minWidth="40.0" prefWidth="40.0" />
+            <ColumnConstraints hgrow="NEVER" maxWidth="-Infinity" minWidth="40.0" prefWidth="40.0" />
+            <ColumnConstraints hgrow="NEVER" maxWidth="-Infinity" minWidth="40.0" prefWidth="40.0" />
+            <ColumnConstraints hgrow="NEVER" maxWidth="-Infinity" minWidth="40.0" prefWidth="40.0" />
+            <ColumnConstraints hgrow="NEVER" maxWidth="-Infinity" minWidth="40.0" prefWidth="40.0" />
+            <ColumnConstraints hgrow="NEVER" maxWidth="-Infinity" minWidth="40.0" prefWidth="40.0" />
+        </columnConstraints>
+        <rowConstraints>
+            <RowConstraints maxHeight="-Infinity" minHeight="40.0" prefHeight="40.0" vgrow="NEVER" />
+            <RowConstraints maxHeight="-Infinity" minHeight="40.0" prefHeight="40.0" vgrow="NEVER" />
+            <RowConstraints maxHeight="-Infinity" minHeight="40.0" prefHeight="40.0" vgrow="NEVER" />
+            <RowConstraints maxHeight="1.7976931348623157E308" minHeight="40.0" prefHeight="40.0" />
+            <RowConstraints />
+            <RowConstraints maxHeight="-Infinity" minHeight="40.0" prefHeight="40.0" vgrow="ALWAYS" />
+            <RowConstraints maxHeight="-Infinity" minHeight="40.0" prefHeight="40.0" vgrow="NEVER" />
+          <RowConstraints maxHeight="-Infinity" minHeight="40.0" prefHeight="40.0" vgrow="NEVER" />
+          <RowConstraints maxHeight="-Infinity" minHeight="40.0" prefHeight="40.0" vgrow="NEVER" />
+            <RowConstraints maxHeight="40.0" minHeight="40.0" prefHeight="40.0" vgrow="NEVER" />
+        </rowConstraints>
+         <children>
+            <Pane fx:id="nullnull" onMouseClicked="#nullnull" prefHeight="25.0" prefWidth="26.0" GridPane.rowIndex="9" />
+            <Pane fx:id="ennull" onMouseClicked="#ennull" prefHeight="25.0" prefWidth="26.0" GridPane.columnIndex="1" GridPane.rowIndex="9" />
+            <Pane fx:id="tonull" onMouseClicked="#tonull" prefHeight="25.0" prefWidth="26.0" GridPane.columnIndex="2" GridPane.rowIndex="9" />
+            <Pane fx:id="trenull" onMouseClicked="#trenull" prefHeight="25.0" prefWidth="26.0" GridPane.columnIndex="3" GridPane.rowIndex="9" />
+            <Pane fx:id="firenull" onMouseClicked="#firenull" prefHeight="25.0" prefWidth="26.0" GridPane.columnIndex="4" GridPane.rowIndex="9" />
+            <Pane fx:id="nullen" onMouseClicked="#nullen" prefHeight="25.0" prefWidth="26.0" GridPane.rowIndex="8" />
+            <Pane fx:id="enen" onMouseClicked="#enen" prefHeight="25.0" prefWidth="26.0" GridPane.columnIndex="1" GridPane.rowIndex="8" />
+            <Pane fx:id="toen" onMouseClicked="#toen" prefHeight="25.0" prefWidth="26.0" GridPane.columnIndex="2" GridPane.rowIndex="8" />
+            <Pane fx:id="treen" onMouseClicked="#treen" prefHeight="25.0" prefWidth="26.0" GridPane.columnIndex="3" GridPane.rowIndex="8" />
+            <Pane fx:id="fireen" onMouseClicked="#fireen" prefHeight="25.0" prefWidth="26.0" GridPane.columnIndex="4" GridPane.rowIndex="8" />
+            <Pane fx:id="nullto" onMouseClicked="#nullto" prefHeight="25.0" prefWidth="26.0" GridPane.rowIndex="7" />
+            <Pane fx:id="ento" onMouseClicked="#ento" prefHeight="25.0" prefWidth="26.0" GridPane.columnIndex="1" GridPane.rowIndex="7" />
+            <Pane fx:id="toto" onMouseClicked="#toto" prefHeight="25.0" prefWidth="26.0" GridPane.columnIndex="2" GridPane.rowIndex="7" />
+            <Pane fx:id="treto" onMouseClicked="#treto" prefHeight="25.0" prefWidth="26.0" GridPane.columnIndex="3" GridPane.rowIndex="7" />
+            <Pane fx:id="fireto" onMouseClicked="#fireto" prefHeight="25.0" prefWidth="26.0" GridPane.columnIndex="4" GridPane.rowIndex="7" />
+            <Pane fx:id="nulltre" onMouseClicked="#nulltre" prefHeight="25.0" prefWidth="26.0" GridPane.rowIndex="6" />
+            <Pane fx:id="entre" onMouseClicked="#entre" prefHeight="25.0" prefWidth="26.0" GridPane.columnIndex="1" GridPane.rowIndex="6" />
+            <Pane fx:id="totre" onMouseClicked="#totre" prefHeight="25.0" prefWidth="26.0" GridPane.columnIndex="2" GridPane.rowIndex="6" />
+            <Pane fx:id="tretre" onMouseClicked="#tretre" prefHeight="25.0" prefWidth="26.0" GridPane.columnIndex="3" GridPane.rowIndex="6" />
+            <Pane fx:id="firetre" onMouseClicked="#firetre" prefHeight="25.0" prefWidth="26.0" GridPane.columnIndex="4" GridPane.rowIndex="6" />
+            <Pane fx:id="nullfire" onMouseClicked="#nullfire" prefHeight="25.0" prefWidth="26.0" GridPane.rowIndex="5" />
+            <Pane fx:id="enfire" onMouseClicked="#enfire" prefHeight="25.0" prefWidth="26.0" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+            <Pane fx:id="tofire" onMouseClicked="#tofire" prefHeight="25.0" prefWidth="26.0" GridPane.columnIndex="2" GridPane.rowIndex="5" />
+            <Pane fx:id="trefire" onMouseClicked="#trefire" prefHeight="25.0" prefWidth="26.0" GridPane.columnIndex="3" GridPane.rowIndex="5" />
+            <Pane fx:id="firefire" onMouseClicked="#firefire" prefHeight="25.0" prefWidth="26.0" GridPane.columnIndex="4" GridPane.rowIndex="5" />
+            <Pane fx:id="nullfem" onMouseClicked="#nullfem" prefHeight="200.0" prefWidth="200.0" GridPane.rowIndex="3" />
+            <Pane fx:id="nullseks" onMouseClicked="#nullseks" prefHeight="200.0" prefWidth="200.0" GridPane.rowIndex="2" />
+            <Pane fx:id="nullsyv" onMouseClicked="#nullsyv" prefHeight="200.0" prefWidth="200.0" GridPane.rowIndex="1" />
+            <Pane fx:id="nullåtte" onMouseClicked="#nullåtte" prefHeight="200.0" prefWidth="200.0" />
+            <Pane fx:id="enåtte" onMouseClicked="#enåtte" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" />
+            <Pane fx:id="ensyv" onMouseClicked="#ensyv" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+            <Pane fx:id="enseks" onMouseClicked="#enseks" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+            <Pane fx:id="enfem" onMouseClicked="#enfem" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+            <Pane fx:id="toåtte" onMouseClicked="#toåtte" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="2" />
+            <Pane fx:id="tosyv" onMouseClicked="#tosyv" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+            <Pane fx:id="toseks" onMouseClicked="#toseks" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+            <Pane fx:id="tofem" onMouseClicked="#tofem" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="2" GridPane.rowIndex="3" />
+            <Pane fx:id="treåtte" onMouseClicked="#treåtte" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="3" />
+            <Pane fx:id="tresyv" onMouseClicked="#tresyv" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="3" GridPane.rowIndex="1" />
+            <Pane fx:id="treseks" onMouseClicked="#treseks" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="3" GridPane.rowIndex="2" />
+            <Pane fx:id="trefem" onMouseClicked="#trefem" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="3" GridPane.rowIndex="3" />
+            <Pane fx:id="fireåtte" onMouseClicked="#fireåtte" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="4" />
+            <Pane fx:id="firesyv" onMouseClicked="#firesyv" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="4" GridPane.rowIndex="1" />
+            <Pane fx:id="fireseks" onMouseClicked="#fireseks" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="4" GridPane.rowIndex="2" />
+            <Pane fx:id="firefem" onMouseClicked="#firefem" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="4" GridPane.rowIndex="3" />
+            <Pane fx:id="femåtte" onMouseClicked="#femåtte" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="5" />
+            <Pane fx:id="femsyv" onMouseClicked="#femsyv" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="5" GridPane.rowIndex="1" />
+            <Pane fx:id="femseks" onMouseClicked="#femseks" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="5" GridPane.rowIndex="2" />
+            <Pane fx:id="femfem" onMouseClicked="#femfem" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="5" GridPane.rowIndex="3" />
+            <Pane fx:id="femfire" onMouseClicked="#femfire" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="5" GridPane.rowIndex="5" />
+            <Pane fx:id="femtre" onMouseClicked="#femtre" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="5" GridPane.rowIndex="6" />
+            <Pane fx:id="femto" onMouseClicked="#femto" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="5" GridPane.rowIndex="7" />
+            <Pane fx:id="femen" onMouseClicked="#femen" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="5" GridPane.rowIndex="8" />
+            <Pane fx:id="femnull" onMouseClicked="#femnull" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="5" GridPane.rowIndex="9" />
+            <Pane fx:id="seksåtte" onMouseClicked="#seksåtte" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="6" />
+            <Pane fx:id="sekssyv" onMouseClicked="#sekssyv" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="6" GridPane.rowIndex="1" />
+            <Pane fx:id="seksseks" onMouseClicked="#seksseks" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="6" GridPane.rowIndex="2" />
+            <Pane fx:id="seksfem" onMouseClicked="#seksfem" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="6" GridPane.rowIndex="3" />
+            <Pane fx:id="seksfire" onMouseClicked="#seksfire" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="6" GridPane.rowIndex="5" />
+            <Pane fx:id="sekstre" onMouseClicked="#sekstre" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="6" GridPane.rowIndex="6" />
+            <Pane fx:id="seksto" onMouseClicked="#seksto" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="6" GridPane.rowIndex="7" />
+            <Pane fx:id="seksen" onMouseClicked="#seksen" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="6" GridPane.rowIndex="8" />
+            <Pane fx:id="seksnull" onMouseClicked="#seksnull" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="6" GridPane.rowIndex="9" />
+            <Pane fx:id="syvåtte" onMouseClicked="#syvåtte" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="7" />
+            <Pane fx:id="syvsyv" onMouseClicked="#syvsyv" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="7" GridPane.rowIndex="1" />
+            <Pane fx:id="syvseks" onMouseClicked="#syvseks" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="7" GridPane.rowIndex="2" />
+            <Pane fx:id="syvfem" onMouseClicked="#syvfem" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="7" GridPane.rowIndex="3" />
+            <Pane fx:id="syvfire" onMouseClicked="#syvfire" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="7" GridPane.rowIndex="5" />
+            <Pane fx:id="syvtre" onMouseClicked="#syvtre" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="7" GridPane.rowIndex="6" />
+            <Pane fx:id="syvto" onMouseClicked="#syvto" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="7" GridPane.rowIndex="7" />
+            <Pane fx:id="syven" onMouseClicked="#syven" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="7" GridPane.rowIndex="8" />
+            <Pane fx:id="syvnull" onMouseClicked="#syvnull" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="7" GridPane.rowIndex="9" />
+            <Pane fx:id="åtteåtte" onMouseClicked="#åtteåtte" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="8" />
+            <Pane fx:id="åttesyv" onMouseClicked="#åttesyv" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="8" GridPane.rowIndex="1" />
+            <Pane fx:id="åtteseks" onMouseClicked="#åtteseks" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="8" GridPane.rowIndex="2" />
+            <Pane fx:id="åttefem" onMouseClicked="#åttefem" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="8" GridPane.rowIndex="3" />
+            <Pane fx:id="åttefire" onMouseClicked="#åttefire" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="8" GridPane.rowIndex="5" />
+            <Pane fx:id="åttetre" onMouseClicked="#åttetre" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="8" GridPane.rowIndex="6" />
+            <Pane fx:id="åtteto" onMouseClicked="#åtteto" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="8" GridPane.rowIndex="7" />
+            <Pane fx:id="åtteen" onMouseClicked="#åtteen" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="8" GridPane.rowIndex="8" />
+            <Pane fx:id="åttenull" onMouseClicked="#åttenull" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="8" GridPane.rowIndex="9" />
+         </children>
+      </GridPane>
+      <Button fx:id="lagre" layoutX="243.0" layoutY="14.0" mnemonicParsing="false" onMouseClicked="#handleSave" style="-fx-background-color: #FB6962;" text="Save" textFill="#113139">
+         <font>
+            <Font name="Helvetica Neue" size="13.0" />
+         </font></Button>
+   </children>
+</AnchorPane>
